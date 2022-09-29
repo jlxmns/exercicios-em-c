@@ -5,8 +5,6 @@ correspondente em Celsius e em Kelvin: */
 
 int main() {
 
-    //Definindo as variáveis de temperatura
-
     float temp, celsius, kelvin;
 
     //Perguntando ao usuário o valor da temperatura em Fahrenheit

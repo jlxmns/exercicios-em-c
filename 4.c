@@ -7,8 +7,7 @@ c) se ambos forem iguais a mensagem "valores iguais". */
 #include <stdio.h>
 
 int main() {
-
-    //Definindo variáveis
+    
     int num1, num2, controle;
 
     //Captando os números fornecidos pelo usuário
@@ -27,7 +26,7 @@ int main() {
         }
 
         //Segunda estrutura de repetição: imprimindo os números em ordem decrescente
-        printf("\nValores de %d ate %d, em ordem decrescente:\t");
+        printf("\nValores de %d ate %d, em ordem decrescente:\t", num1, num2);
         controle = num2;
         while(num1 <= controle) {
             printf("%d\t", controle);

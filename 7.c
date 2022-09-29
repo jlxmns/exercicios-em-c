@@ -7,15 +7,13 @@ a nota da primeira prova. */
 
 int main() {
 
-    //Definindo as variáveis
-
     float nota1, nota2, media;
 
     //Condição de repetição infinita, o programa é interrompido apenas com interferência do usuário
 
     do {
 
-        //Informações ao usuário e captação da primeira nota
+        //Informações ao usuário e definindo a primeira nota
         printf("\nDigite '50' como primeira nota para interromper o programa.");
         printf("\nInforme sua primeira nota: ");
         scanf("%f", &nota1);
@@ -25,7 +23,7 @@ int main() {
             break;
         }
 
-        //Captação da segunda nota
+        //Definindo a segunda nota
         printf("Informe sua segunda nota: ");
         scanf("%f", &nota2);
 
@@ -38,7 +36,7 @@ int main() {
             media = (nota1 + nota2) / 2;
             printf("Sua media e: %.2f.", media);
         }
-    } while(true);
+    } while(1);
 
     return 0;
 }

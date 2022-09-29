@@ -8,7 +8,6 @@ do primeiro número. */
 
 int main() {
 
-    //Definindo variáveis
     int num1, num2;
     int soma, produtoPeloQuadradoDoSegundo, quadradoDoPrimeiro, moduloDoPrimeiro;
     double raizDaSomaDosQuadrados, senoDiferenca;
@@ -28,7 +27,7 @@ int main() {
 
     //Pequena gambiarra para retornar o módulo, pois não achei jeito fácil de fazer conversão de variável para unsigned int
 
-    moduloDoPrimeiro = sqrt(double(pow(num1, 2)));
+    moduloDoPrimeiro = sqrt(pow(num1, 2));
 
     //Apresentando os resultados para o usuário
 

@@ -5,8 +5,6 @@ mesmo número nas bases octal e hexadecimal. */
 
 int main() {
 
-    //Definindo variável
-
     int decimal;
 
     //Coletando o valor do decimal informado pelo usuário

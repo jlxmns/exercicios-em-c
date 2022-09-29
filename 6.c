@@ -6,8 +6,6 @@ ou o operador de condição "?".*/
 
 int main() {
 
-    //Definindo as variáveis
-
     float precoProduto, precoInflacionado;
 
     //Guardando a variável fornecida pelo usuário
